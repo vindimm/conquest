@@ -32,8 +32,8 @@ const styles = () => {
 
 // Images
 const imagesCopy = () => {
-  return gulp.src('source/img/**/*.{jpg,png,svg}')
-    .pipe(gulp.dest('build/img'));
+  return gulp.src('source/images/**/*.{jpg,png,svg}')
+    .pipe(gulp.dest('build/images'));
 }
 
 // Copy
