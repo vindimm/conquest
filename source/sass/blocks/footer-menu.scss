@@ -1,0 +1,25 @@
+.footer-menu {
+  @include reset-list;
+}
+
+.footer-menu__title {
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.07em;
+}
+
+.footer-menu__list {
+  @include reset-list;
+}
+
+.footer-menu__link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.75);
+
+  &:hover {
+    opacity: 0.4;
+  }
+}

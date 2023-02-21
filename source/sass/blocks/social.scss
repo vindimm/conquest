@@ -1,0 +1,12 @@
+.social {
+  @include reset-list;
+}
+
+.social__link {
+  text-decoration: none;
+  color: #5c5c50;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}

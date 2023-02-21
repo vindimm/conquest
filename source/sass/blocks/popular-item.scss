@@ -1,0 +1,28 @@
+.popular-item {
+  color: $color-title
+}
+
+.popular-item__title {
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(27, 26, 23, 0.82);
+  text-transform: uppercase;
+}
+
+.popular-item__price {
+  font-family: 'Prata', serif;
+  color: rgba(27, 26, 23, 0.82);
+}
+
+.popular-item__link {
+  text-decoration: none;
+  color: inherit;
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}

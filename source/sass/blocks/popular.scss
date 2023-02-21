@@ -1,0 +1,32 @@
+.popular {
+  background-color: #ffffff;
+}
+
+.popular__title {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 400;
+  color: $color-title;
+}
+
+.popular__link {
+  display: inline-block;
+  padding: 10px 0;
+  border-bottom: 1px solid #c4c0b6;
+
+  font-family: 'Roboto', serif;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
+  color: $color-accent;
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.popular__list {
+  @include reset-list;
+}

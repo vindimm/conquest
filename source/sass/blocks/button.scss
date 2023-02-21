@@ -1,0 +1,27 @@
+.button {
+  display: inline-block;
+  box-sizing: border-box;
+  min-width: 205px;
+  min-height: 64px;
+  padding: 25px 38px;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+
+  &--dark {
+    background-color: $color-accent;
+    color: #ffffff;
+  }
+
+  &--light {
+    background-color: $color-accent-2;
+    color: #ffffff;
+  }
+
+  &:hover {
+    opacity: 0.5;
+  }
+}

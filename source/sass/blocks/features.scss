@@ -1,0 +1,19 @@
+.features__title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  color: $color-title;
+}
+
+.features__text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: $color-accent;
+}
+
+.features__link {
+  text-decoration: none;
+}

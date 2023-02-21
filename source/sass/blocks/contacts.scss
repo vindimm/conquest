@@ -1,0 +1,26 @@
+.contacts {
+  background-color: $color-accent;
+  color: #ffffff;
+}
+
+.contacts__logo-link {
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-family: 'Playfair Display', serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+}
+
+.contacts__phone,
+.contacts__mail {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.75);
+  font-style: normal;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
