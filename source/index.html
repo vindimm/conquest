@@ -16,36 +16,37 @@
 
 <body class="page">
   <header class="header">
-    <nav class="navigation">
-      <a href="" class="navigation__logo-link">
-        <img class="navigation__logo-img" src="./images/logo.svg" width="20" height="20" alt="Логотип Конквест">
-        Conquest
-      </a>
-      <ul class="navigation__list">
-        <li class="navigation__item"><a class="navigation__link" href="#">Каталог</a></li>
-        <li class="navigation__item"><a class="navigation__link" href="#">Акции</a></li>
-        <li class="navigation__item"><a class="navigation__link" href="#">Доставка</a></li>
-        <li class="navigation__item"><a class="navigation__link" href="#">Контакты</a></li>
-      </ul>
-      <ul class="navigation__list">
-        <li class="navigation__item">
-          <a class="navigation__link" href="#">
-            <span class="visually-hidden">Поиск</span>
-          </a>
-        </li>
-        <li class="navigation__item">
-          <a class="navigation__link" href="#">
-            <span class="visually-hidden">Избранное</span>
-          </a>
-        </li>
-        <li class="navigation__item">
-          <a class="navigation__link" href="#">
-            <span class="visually-hidden">Товаров в корзине:</span>
-            <span class="visually-hidden">1</span>
-          </a>
-        </li>
-      </ul>
-    </nav>
+    <div class="center-container header__wrapper">
+      <nav class="navigation">
+        <a href="" class="navigation__logo-link">
+          <img class="navigation__logo-img" src="./images/logo.svg" width="20" height="20" alt="Логотип Конквест">Conquest
+        </a>
+        <ul class="navigation__list navigation__list--primary">
+          <li class="navigation__item"><a class="navigation__link" href="#">Каталог</a></li>
+          <li class="navigation__item"><a class="navigation__link" href="#">Акции</a></li>
+          <li class="navigation__item"><a class="navigation__link" href="#">Доставка</a></li>
+          <li class="navigation__item"><a class="navigation__link" href="#">Контакты</a></li>
+        </ul>
+        <ul class="navigation__list navigation__list--secondary">
+          <li class="navigation__item">
+            <a class="navigation__link navigation__icon-link navigation__icon-link--search" href="#">
+              <span class="visually-hidden">Поиск</span>
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link navigation__icon-link navigation__icon-link--favorites" href="#">
+              <span class="visually-hidden">Товаров в избранном</span>
+              <span class="navigation__counter">1</span>
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link navigation__icon-link navigation__icon-link--cart" href="#">
+              <span class="visually-hidden">Корзина</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main class="main">
     <h1 class="visually-hidden">Магазин наручных часов "Conquest"</h1>
