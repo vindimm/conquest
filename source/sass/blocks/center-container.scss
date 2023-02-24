@@ -1,4 +1,8 @@
 .center-container {
   max-width: 1170px;
   margin: 0 auto;
+
+  &--narrow {
+    max-width: 1000px;
+  }
 }
