@@ -1,8 +1,18 @@
 .popular {
+  padding-top: 50px;
+  padding-bottom: 86px;
   background-color: #ffffff;
 }
 
+.popular__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .popular__title {
+  margin: 0;
+  text-align: center;
   font-family: 'Playfair Display', serif;
   font-size: 32px;
   line-height: 42px;
@@ -11,6 +21,8 @@
 }
 
 .popular__link {
+  margin-bottom: 25px;
+  align-self: flex-end;
   display: inline-block;
   padding: 10px 0;
   border-bottom: 1px solid #c4c0b6;
@@ -29,4 +41,12 @@
 
 .popular__list {
   @include reset-list;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.popular__item {
+  width: 370px;
+  box-sizing: border-box;
 }

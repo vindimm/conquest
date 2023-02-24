@@ -1,8 +1,15 @@
 .popular-item {
+  padding: 40px 28px;
+  background-image: url("../../images/popular-item-bg.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 94px;
   color: $color-title
 }
 
 .popular-item__title {
+  margin-top: 0;
+  margin-bottom: 10px;
   font-family: 'Playfair Display', serif;
   font-size: 14px;
   line-height: 24px;
@@ -16,7 +23,13 @@
   color: rgba(27, 26, 23, 0.82);
 }
 
+.popular-item__image {
+  margin-bottom: 20px;
+}
+
 .popular-item__link {
+  position: relative;
+  padding-left: 50px;
   text-decoration: none;
   color: inherit;
   font-family: 'Playfair Display', serif;
@@ -25,4 +38,15 @@
   &:hover {
     opacity: 0.5;
   }
+}
+
+.popular-item__link::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #8b8371;
+  top: 12px;
+  left: 0;
 }

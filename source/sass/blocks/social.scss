@@ -1,12 +1,18 @@
 .social {
   @include reset-list;
+  margin-left: -10px;
 }
 
 .social__link {
   text-decoration: none;
   color: #5c5c50;
+  padding: 10px;
 
   &:hover {
     opacity: 0.5;
   }
+}
+
+.social__link svg {
+  vertical-align: middle;
 }

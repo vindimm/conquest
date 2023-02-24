@@ -1,3 +1,22 @@
+.slider {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: transparent;
+}
+
+.slider__image {
+  margin-bottom: 15px;
+}
+
+.slider__wrapper-buttons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-right: 80px;
+  margin-bottom: 10px;
+}
+
 .slider__number {
   font-family: 'Prata', serif;
   font-size: 12px;
@@ -6,6 +25,23 @@
 }
 
 .slider__button {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &--prev {
+    background-image: url("../../images/arrow-prev.svg");
+  }
+
+  &--next {
+    background-image: url("../../images/arrow-next.svg");
+  }
+
+  &:hover {
+    opacity: 0.4;
+    cursor: pointer;
+  }
 }
